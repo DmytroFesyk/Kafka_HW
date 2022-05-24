@@ -1,0 +1,10 @@
+POST http://127.0.0.1:8080/vehicle
+Content-Type: application/json
+
+{
+  "carId": 3,
+  "coordinates": {
+    "latitude": 41.12,
+    "longitude": 61.5646
+  }
+}
