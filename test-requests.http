@@ -1,10 +1,12 @@
 POST http://127.0.0.1:8080/vehicle
 Content-Type: application/json
 
+
+// to test transaction rolback case set car id to 3
 {
-  "carId": 3,
+  "carId": 5,
   "coordinates": {
-    "latitude": 41.12,
-    "longitude": 61.5646
+    "latitude": 121.12,
+    "longitude": 71.5646
   }
 }
